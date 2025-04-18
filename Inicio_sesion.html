@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./Css/Inicio_sesion.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="shortcut icon" href="./img/Logo negre transparent - favicon.png" type="image/x-icon">
+    <script src="./Js/Inicio_sesion.js"></script>
+</head>
+<body>
+    <section>
+  <div class="login-box-inicio-sesio">
+    <form id="login-form" onsubmit="return validateLogin()">
+        <h2>Inicia la sessió</h2>
+        <div class="input-box">
+            <span class="icon">
+                <ion-icon name="mail"></ion-icon>
+            </span>
+            <input id="login-email" type="email" required>
+            <label>Email</label>
+        </div>
+        <div class="input-box">
+            <span class="icon">
+                <ion-icon name="lock"></ion-icon>
+            </span>
+            <input  id="login-password" type="password" required>
+            <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+            <label>
+                <input type="checkbox">Remember me
+            </label>
+        </div>
+        <button type="submit">Inicia la sessió</button>
+        <div class="register-link">
+            <p>
+                No tens compte?
+                <a href="registro.html">Enregistra't</a>
+            </p>
+        </div>
+    </form>
+  </div>
+</section>
+
+    <script src="./Js/Inicio_sesion.js"></script>
+</body>
+</html>
