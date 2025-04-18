@@ -1,0 +1,86 @@
+.profile-header {
+    background: #385036;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(182, 182, 182);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.logout-button:hover {
+    background: #555;
+    color: rgb(255, 255, 255);
+}
+
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover; /* Asegura que la imagen se recorte en lugar de estirarse */
+    border: 3px solid #6b8061;
+}
+
+.profile-info h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.profile-info p{
+    font-size: 14px;
+    color: #aaa;
+}
+
+.profile-statistic{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.stadistics{
+    background-color: #385036;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.achievements {
+    margin-top: 20px;
+}
+
+.achievement-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.achievement {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #555;
+    opacity: 0.5; /* Imagen bloqueada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.achievement.unlocked {
+    opacity: 1; /* Imagen desbloqueada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
