@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="shortcut icon" href="../img/Logo negre transparent - favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/general.css">
+    <link rel="stylesheet" href="../Css/perfil.css">
+    <script src="../Js/perfil.js"></script>
+</head>
+<body>
+
+    <header class="profile-header">
+        <img id="avatar" src="../img/Avatar.jpg" alt="perfil-avatar">
+        <button class="logout-button" onclick="logout()">&#8592; Cerrar Sesión
+        </button>
+        <div class="profile-info">
+            <h1>Nom d'Usuari</h1>
+            <p>@usuari123 · Última connexió</p>
+        </div>
+    </header>
+
+    <section class="profile-statistic">
+        <div class="stadistics">
+            <p class="numero">1</p>
+            <p>Reptes completats</p>
+        </div>
+        <div class="stadistics">
+            <p class="numero">4</p>
+            <p>Reptes restants</p>
+        </div>
+    </section>
+
+    <section class="achievements">
+        <h2>Èxits</h2>
+        <div class="achievement-container">
+            <img src="../img/secret_uno.webp" alt="Secret 1" class="achievement unlocked">
+            <img src="../img/secret_dos.webp" alt="Secret 2" class="achievement locked">
+            <img src="../img/secret_tres.webp" alt="Secret 3" class="achievement locked">
+            <img src="../img/secret_quatre.png" alt="Secret 4" class="achievement locked"><img src="../img/secret_final.png" alt="Secret 5" class="achievement locked">
+        </div>
+    </section>
+
+    <div class="buttons">
+        <button onclick="location.href='../index.html'">
+          Inicio
+        </button>
+        <button onclick="location.href='secrets.html'">
+           Secrets
+        </button>
+        <button onclick="location.href='perfil.html'">
+            Perfil
+        </button>
+</body>
+</html>
